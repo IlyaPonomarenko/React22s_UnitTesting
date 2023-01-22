@@ -14,9 +14,9 @@ function App() {
   };
   return (
     <div>
-      <input type="text" name="username" onChange={handleChange} />
-      <h2>Username: {username}</h2>
-      <button onClick={Click}>Click</button>
+      <input type="text" data-testid="input" name="username" onChange={handleChange} />
+      <h2 data-testid="output">{username}</h2>
+      <button data-testid="button" onClick={Click}>Click</button>
     </div>
   );
 }

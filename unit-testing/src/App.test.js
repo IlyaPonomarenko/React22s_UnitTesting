@@ -1,8 +1,12 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
-import renderer from 'react-test-renderer';
 
 test('renders learn react link', () => {
   render(<App />);
+  const button = screen.getByTestId("button");
+  const input = screen.getByTestId("input");
+  const output = screen.getByTestId("output");
+
+  fireEvent.click(button)
 
 });
