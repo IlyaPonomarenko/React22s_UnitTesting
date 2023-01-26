@@ -6,7 +6,6 @@ test('renders learn react link', () => {
   const button = screen.getByTestId("button");
   const input = screen.getByTestId("input");
   const output = screen.getByTestId("output");
-
   fireEvent.click(button)
 
 });
