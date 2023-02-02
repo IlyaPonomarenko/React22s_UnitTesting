@@ -15,3 +15,6 @@ https://jestjs.io/docs/tutorial-react
  - Assigning tasks (deadline)
  - Commenting tasks
  - Documentation, links, pictures about the issue
+
+## Description of bugs
+- Spesific instructions on how to replicate
